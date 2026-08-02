@@ -420,8 +420,7 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
     on "show" action Play("menu_music", "audio/music/pastelhouse.ogg"),
-    add gui.main_menu_background  
-    add "version_game" xalign 1.0 yalign 1.0
+    add gui.main_menu_background
 
     hbox: 
         yalign 0.985
